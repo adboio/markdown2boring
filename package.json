@@ -18,7 +18,8 @@
     "build": "tsup",
     "test": "vitest run",
     "test:watch": "vitest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run typecheck && npm run test && npm run build"
   },
   "keywords": [
     "markdown",
@@ -26,7 +27,19 @@
     "imessage",
     "sms"
   ],
+  "author": "adboio",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adboio/markdown2boring.git"
+  },
+  "homepage": "https://github.com/adboio/markdown2boring#readme",
+  "bugs": {
+    "url": "https://github.com/adboio/markdown2boring/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "remark-gfm": "^4.0.0",
     "remark-parse": "^11.0.0",
