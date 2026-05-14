@@ -1,0 +1,6 @@
+Here's a snippet:
+
+  console.log("hi");
+  const x = 1;
+
+Done.
