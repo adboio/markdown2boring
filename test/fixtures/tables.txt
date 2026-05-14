@@ -1,0 +1,7 @@
+Name: Alice
+Role: Engineer
+Status: Active
+
+Name: Bob
+Role: Designer
+Status: On leave
